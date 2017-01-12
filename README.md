@@ -36,6 +36,8 @@ For creating a data sample from the corpus of data and making model from it has 
 
 ![Application Screenshot](app.png)
 
+App is available at : https://vasuji.shinyapps.io/R-cap-project/
+
 ******
 
 #### References
