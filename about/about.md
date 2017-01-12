@@ -1,9 +1,8 @@
-# R-cap-Project
 
 ![SwiftKey, Bloomberg & Coursera Logo](logos.png)
 
 ### Coursera Data Science Capstone Project
-This is the application made for final project on Coursera Data Science specialization. Special thanks goes to professors of the Johns Hopkins University, SwiftKey for providing data, Coursera for providing learning platforms and R-sudio&Shiny apps for providing app-deployment platform.
+This is the application made for final project on Coursera Data Science specialization. Special thanks goes to professors of the Johns Hopkins University, SwiftKey for providing data, Coursera for providing learning platforms and R-study&Shiny apps for providing app-deploy platform.
 
 ******
 

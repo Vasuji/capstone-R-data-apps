@@ -1,13 +1,13 @@
-# R-cap-Project
 
 ![SwiftKey, Bloomberg & Coursera Logo](logos.png)
 
-### Coursera Data Science Capstone Project
-This is the application made for final project on Coursera Data Science specialization. Special thanks goes to professors of the Johns Hopkins University, SwiftKey for providing data, Coursera for providing learning platforms and R-sudio&Shiny apps for providing app-deployment platform.
+## Coursera Data Science Capstone Project
+
+This is the application made for final project on Coursera Data Science specialization. Special thanks goes to professors of the Johns Hopkins University, SwiftKey for providing data, Coursera for providing learning platforms and R-studio & Shiny apps for providing app-deploy platform.
 
 ******
 
-#### The Main Objective
+## The Main Objective
 
 The main objective of this project is to build nex-word predictor shiny app. There are several steps viz: data cleansing, exploratory analysis, preparing n-grams, predictive model and display results. Provided text data was used to create a frequency dictionary which was later used to predict the next words that comes from a corpus of data. There are veriety of R-packages available for cleaning, processing, modeling and disply activity. Few of them are listed in references.
 
@@ -29,7 +29,7 @@ For creating a data sample from the corpus of data and making model from it has 
 
 ******
 
-#### How to use The Application
+## How to use The Application
 
 
  User can enter the text into the text input box(field), the predicted next word instantaneously show up in the lower box(field) as shown in figure below.
@@ -38,7 +38,7 @@ For creating a data sample from the corpus of data and making model from it has 
 
 ******
 
-#### References
+## References
 
 
 * what is 'n-gram model': [https://en.wikipedia.org/wiki/N-gram](https://en.wikipedia.org/wiki/N-gram)

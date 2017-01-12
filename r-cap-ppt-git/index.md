@@ -1,21 +1,29 @@
-# R-cap-Project
+---
+title       : Capstone Project
+subtitle    : N-gram Model
+author      : Vasuji 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+---
+
+## Coursera Data Science Capstone Project
 
 ![SwiftKey, Bloomberg & Coursera Logo](logos.png)
 
-### Coursera Data Science Capstone Project
-This is the application made for final project on Coursera Data Science specialization. Special thanks goes to professors of the Johns Hopkins University, SwiftKey for providing data, Coursera for providing learning platforms and R-sudio&Shiny apps for providing app-deployment platform.
+This is the application made for final project on Coursera Data Science specialization. Special thanks goes to professors of the Johns Hopkins University, SwiftKey for providing data, Coursera for providing learning platforms and R-studio & Shiny apps for providing app-deploy platform.
 
-******
+--- .class #id 
 
-#### The Main Objective
+## The Main Objective
 
 The main objective of this project is to build nex-word predictor shiny app. There are several steps viz: data cleansing, exploratory analysis, preparing n-grams, predictive model and display results. Provided text data was used to create a frequency dictionary which was later used to predict the next words that comes from a corpus of data. There are veriety of R-packages available for cleaning, processing, modeling and disply activity. Few of them are listed in references.
 
+--- .class #id 
 
-
-******
-
-#### Methodology
+## Methodology
 
 For creating a data sample from the corpus of data and making model from it has following steps:
 
@@ -27,19 +35,20 @@ For creating a data sample from the corpus of data and making model from it has 
 
   - The resulting data-frames are used to predict the next word in connection with the text input by a user of the described application and the frequencies of the underlying *n*-grams table.
 
-******
 
-#### How to use The Application
+--- .class #id 
+
+
+## How to use The Application
 
 
  User can enter the text into the text input box(field), the predicted next word instantaneously show up in the lower box(field) as shown in figure below.
 
 ![Application Screenshot](app.png)
 
-******
+--- .class #id 
 
-#### References
-
+## References
 
 * what is 'n-gram model': [https://en.wikipedia.org/wiki/N-gram](https://en.wikipedia.org/wiki/N-gram)
 * Text-mining: [http://www.r-bloggers.com/intro-to-text-analysis-with-r/](http://www.r-bloggers.com/intro-to-text-analysis-with-r/)

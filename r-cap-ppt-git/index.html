@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Capstone Project</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Capstone Project">
+  <meta name="author" content="Vasuji">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Capstone Project</h1>
+    <h2>N-gram Model</h2>
+    <p>Vasuji<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Coursera Data Science Capstone Project</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="logos.png" alt="SwiftKey, Bloomberg &amp; Coursera Logo"></p>
+
+<p>This is the application made for final project on Coursera Data Science specialization. Special thanks goes to professors of the Johns Hopkins University, SwiftKey for providing data, Coursera for providing learning platforms and R-studio &amp; Shiny apps for providing app-deploy platform.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>The Main Objective</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The main objective of this project is to build nex-word predictor shiny app. There are several steps viz: data cleansing, exploratory analysis, preparing n-grams, predictive model and display results. Provided text data was used to create a frequency dictionary which was later used to predict the next words that comes from a corpus of data. There are veriety of R-packages available for cleaning, processing, modeling and disply activity. Few of them are listed in references.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Methodology</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>For creating a data sample from the corpus of data and making model from it has following steps:</p>
+
+<ul>
+<li><p>Provided data was cleaned by conversion to lowercase, removing punctuation, links, white space, numbers and all kinds of special characters etc.</p></li>
+<li><p>This data sample was then tokenized.</p></li>
+<li><p>Those aggregated bi-,tri- and quadgram term frequency matrices was transferred into frequency dictionaries.</p></li>
+<li><p>The resulting data-frames are used to predict the next word in connection with the text input by a user of the described application and the frequencies of the underlying <em>n</em>-grams table.</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>How to use The Application</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>User can enter the text into the text input box(field), the predicted next word instantaneously show up in the lower box(field) as shown in figure below.</p>
+
+<p><img src="app.png" alt="Application Screenshot"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>References</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>what is &#39;n-gram model&#39;: <a href="https://en.wikipedia.org/wiki/N-gram">https://en.wikipedia.org/wiki/N-gram</a></li>
+<li>Text-mining: <a href="http://www.r-bloggers.com/intro-to-text-analysis-with-r/">http://www.r-bloggers.com/intro-to-text-analysis-with-r/</a></li>
+<li>Introduction to text mining:<a href="https://eight2late.wordpress.com/2015/05/27/a-gentle-introduction-to-text-mining-using-r/">https://eight2late.wordpress.com/2015/05/27/a-gentle-introduction-to-text-mining-using-r/</a></li>
+<li> Coursera Data Science Specialization: <a href="https://www.coursera.org/specialization/jhudatascience/1">https://www.coursera.org/specialization/jhudatascience/1</a></li>
+<li>&#39;tm&#39; package for text mining: <a href="https://www.cran.r-project.org/web/packages/tm/vignettes/tm.pdf">https://www.cran.r-project.org/web/packages/tm/vignettes/tm.pdf</a></li>
+<li>Coursera: Analyze Text, Discover Patterns, Visualize Data:<a href="https://www.coursera.org/specializations/data-mining">https://www.coursera.org/specializations/data-mining</a></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Coursera Data Science Capstone Project'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='The Main Objective'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Methodology'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='How to use The Application'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='References'>
+         5
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
